@@ -1,0 +1,1339 @@
+{
+  "data": {
+    "undergrad_postgrad_both": {
+      "value": "Undergraduate",
+      "cl_id": "f1fcbca9dbc30610ac9b3ea1f3961966",
+      "key": "display_name"
+    },
+    "published_in_handbook": {
+      "label": "Yes",
+      "value": "1"
+    },
+    "implementation_year": "2026",
+    "duration_ft_max": "",
+    "asced_detailed": {
+      "value": "",
+      "cl_id": null,
+      "key": "display_value"
+    },
+    "grading_schema": {
+      "label": null,
+      "value": null
+    },
+    "study_level": [],
+    "quota_enrolment_requirements": "",
+    "status": {
+      "label": "Accredited",
+      "value": "Active"
+    },
+    "duration_pt_max": "",
+    "duration_pt_std": "",
+    "credit_points": "6",
+    "parent_id": {
+      "value": "Master Record: FIT2014",
+      "cl_id": "7b946e10dbf4b300580f42a0149619e3",
+      "key": "code",
+      "type": "x_f5sl_cl_master_record"
+    },
+    "start_date": "",
+    "exclusions": "",
+    "unit_code": "FIT2014",
+    "academic_org": {
+      "value": "Faculty of Information Technology",
+      "cl_id": "c5684a53dba8a3406add773c349619a1",
+      "key": "name"
+    },
+    "sms_version": "",
+    "level": {
+      "label": "Level 2",
+      "value": "3"
+    },
+    "uac_code": "",
+    "special_requirements": "",
+    "duration_pt_min": "",
+    "special_unit_type": [],
+    "title": "Theory of computation",
+    "duration_ft_std": "",
+    "version": "6",
+    "learning_experiences": null,
+    "handbook_synopsis": "<p>This unit introduces formal languages, models of computation, and computational complexity. It looks at what computers can and cannot compute. Topics include finite state automata, regular expressions, grammars, pushdown automata, computable functions, Turing machines, polynomial-time reductions, complexity classes P and NP, and NP-completeness. Skills at writing formal proofs will be developed.</p>",
+    "duration_ft_min": "",
+    "callista_version": "",
+    "duration_ft_period": {
+      "label": null,
+      "value": null
+    },
+    "asced_narrow": {
+      "value": "",
+      "cl_id": null,
+      "key": "display_value"
+    },
+    "subclass": {
+      "label": "Unit",
+      "value": "subject"
+    },
+    "type": {
+      "label": "Coursework",
+      "value": "600"
+    },
+    "quota_rationale": "",
+    "version_name": "2026.06",
+    "timetable_this_unit": "true",
+    "work_integrated_learning": [
+      {
+        "value": "None",
+        "cl_id": "8ef5d77bdb122300e5cf3391f496191d",
+        "key": "label"
+      }
+    ],
+    "cl_id": "9c077641471b3a10448f409b136d43bd",
+    "school": {
+      "value": "Faculty of Information Technology",
+      "cl_id": "c5684a53dba8a3406add773c349619a1",
+      "key": "name"
+    },
+    "content": null,
+    "learning_and_teaching_resources": null,
+    "collaborating_disciplines": [],
+    "repeatable": "false",
+    "overview": "",
+    "end_date": "",
+    "duration_pt_period": {
+      "label": null,
+      "value": null
+    },
+    "sms_status": {
+      "label": null,
+      "value": null
+    },
+    "learning_materials": null,
+    "special_topic": "true",
+    "asced_broad": {
+      "value": "",
+      "cl_id": null,
+      "key": "display_value"
+    },
+    "publish_tuition_fees": "true",
+    "placement_proportion": {
+      "label": null,
+      "value": null
+    },
+    "code": "FIT2014",
+    "organisational_contact_information": "",
+    "unit_learning_outcomes": [
+      {
+        "lo_domain": [],
+        "order": "4",
+        "number": "4",
+        "code": "ULO4",
+        "lo_cl_id": "1407b641471b3a10448f409b136d4330",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "c9b0eb3ec396921040721d4bb0013109",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Find a Regular Grammar for a Regular Language;</p>",
+        "cl_id": "1407b641471b3a10448f409b136d4330",
+        "ga_map": []
+      },
+      {
+        "lo_domain": [],
+        "order": "6",
+        "number": "6",
+        "code": "ULO6",
+        "lo_cl_id": "9007b641471b3a10448f409b136d4331",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "b692e336c3d6921040721d4bb0013132",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Use Turing Machines to describe languages and represent computable functions;</p>",
+        "cl_id": "9007b641471b3a10448f409b136d4331",
+        "ga_map": []
+      },
+      {
+        "lo_domain": [],
+        "order": "7",
+        "number": "7",
+        "code": "ULO7",
+        "lo_cl_id": "9007b641471b3a10448f409b136d4332",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "02985b72c316921040721d4bb00131a3",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Demonstrate the limitations of the models of computation considered;</p>",
+        "cl_id": "9007b641471b3a10448f409b136d4332",
+        "ga_map": []
+      },
+      {
+        "lo_domain": [],
+        "order": "1",
+        "number": "1",
+        "code": "ULO1",
+        "lo_cl_id": "9007b641471b3a10448f409b136d4333",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "ba82eff2c3d6921040721d4bb00131af",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Use propositional logic, predicates and quantifiers to represent and analyse problems in the theory of computation;</p>",
+        "cl_id": "9007b641471b3a10448f409b136d4333",
+        "ga_map": []
+      },
+      {
+        "lo_domain": [],
+        "order": "2",
+        "number": "2",
+        "code": "ULO2",
+        "lo_cl_id": "9407b641471b3a10448f409b136d4331",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "d6286b3ac35a921040721d4bb0013141",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Construct Finite Automata, Nondeterministic Finite Automata and Context-Free Grammars to describe languages;</p>",
+        "cl_id": "9407b641471b3a10448f409b136d4331",
+        "ga_map": []
+      },
+      {
+        "lo_domain": [],
+        "order": "5",
+        "number": "5",
+        "code": "ULO5",
+        "lo_cl_id": "9407b641471b3a10448f409b136d4332",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "b579eb36c39a921040721d4bb00131f6",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Find a parse tree, leftmost derivation and rightmost derivation for a word in a Context Free Language;</p>",
+        "cl_id": "9407b641471b3a10448f409b136d4332",
+        "ga_map": []
+      },
+      {
+        "lo_domain": [],
+        "order": "9",
+        "number": "9",
+        "code": "ULO9",
+        "lo_cl_id": "9807b641471b3a10448f409b136d4331",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "01366bf6c31a921040721d4bb001318f",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Show that a language is in P, or in NP, or NP-complete;</p>",
+        "cl_id": "9807b641471b3a10448f409b136d4331",
+        "ga_map": []
+      },
+      {
+        "lo_domain": [],
+        "order": "3",
+        "number": "3",
+        "code": "ULO3",
+        "lo_cl_id": "9807b641471b3a10448f409b136d4332",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "7974673ec3d6921040721d4bb00131e1",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Convert Regular Expressions into Finite Automata and vice versa;</p>",
+        "cl_id": "9807b641471b3a10448f409b136d4332",
+        "ga_map": []
+      },
+      {
+        "lo_domain": [],
+        "order": "8",
+        "number": "8",
+        "code": "ULO8",
+        "lo_cl_id": "9c07b641471b3a10448f409b136d4331",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "292467bac3d6921040721d4bb0013153",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Show a language is not regular, or not context-free, or not decidable;</p>",
+        "cl_id": "9c07b641471b3a10448f409b136d4331",
+        "ga_map": []
+      },
+      {
+        "lo_domain": [],
+        "order": "10",
+        "number": "10",
+        "code": "ULO10",
+        "lo_cl_id": "9c07b641471b3a10448f409b136d4332",
+        "lo_domain_description": "",
+        "offerings": [],
+        "linking_id": "542f5bb6c396921040721d4bb001312d",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "description": "<p>Write rigorous formal proofs, including proofs by construction, cases, contradiction and induction.</p>",
+        "cl_id": "9c07b641471b3a10448f409b136d4332",
+        "ga_map": []
+      }
+    ],
+    "school_org_unit_data": [
+      {
+        "parent": {
+          "value": "",
+          "cl_id": null,
+          "key": "name"
+        },
+        "url": "https://www.monash.edu/it",
+        "name": "Faculty of Information Technology",
+        "cl_id": "c5684a53dba8a3406add773c349619a1"
+      }
+    ],
+    "assessments": [
+      {
+        "subject": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "hurdle_type": {
+          "label": "Threshold",
+          "value": "threshold"
+        },
+        "hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+        "number": "2",
+        "weight": "10",
+        "cl_id": "1807b641471b3a10448f409b136d4335",
+        "assessment_name": "2 - Project",
+        "description": null,
+        "assessment_type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "name": "Assignment 1: Regular Expressions and Finite Automata",
+        "offerings_formatted": "",
+        "learning_outcomes": "1, 2, 3"
+      },
+      {
+        "subject": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "hurdle_type": {
+          "label": "Threshold",
+          "value": "threshold"
+        },
+        "hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+        "number": "3",
+        "weight": "15",
+        "cl_id": "5807b641471b3a10448f409b136d4343",
+        "assessment_name": "3 - Examination",
+        "description": null,
+        "assessment_type": {
+          "label": "Examination",
+          "value": "examination"
+        },
+        "name": "Mid-semester Test",
+        "offerings_formatted": "",
+        "learning_outcomes": "1, 2, 3, 5, 4, 7, 8"
+      },
+      {
+        "subject": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "hurdle_type": {
+          "label": "Threshold",
+          "value": "threshold"
+        },
+        "hurdle_supplementary_assessment": "<p>The scheduled final assessment is a hurdle.</p>",
+        "number": "5",
+        "weight": "50",
+        "cl_id": "9407b641471b3a10448f409b136d4336",
+        "assessment_name": "5 - Examination",
+        "description": null,
+        "assessment_type": {
+          "label": "Examination",
+          "value": "examination"
+        },
+        "name": "Scheduled final assessment  (3 hours and 10 minutes)",
+        "offerings_formatted": "",
+        "learning_outcomes": "1, 2, 3, 4, 5, 6, 7, 8, 9"
+      },
+      {
+        "subject": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "hurdle_type": {
+          "label": "Threshold",
+          "value": "threshold"
+        },
+        "hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+        "number": "1",
+        "weight": "5",
+        "cl_id": "9807b641471b3a10448f409b136d4336",
+        "assessment_name": "1 - Written",
+        "description": null,
+        "assessment_type": {
+          "label": "Written",
+          "value": "written"
+        },
+        "name": "Practical Preparation",
+        "offerings_formatted": "",
+        "learning_outcomes": "1, 2, 3, 4, 5, 6, 7, 8, 9"
+      },
+      {
+        "subject": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "hurdle_type": {
+          "label": "Threshold",
+          "value": "threshold"
+        },
+        "hurdle_supplementary_assessment": "<p>This task is part of the in-semester assessment hurdle.</p>",
+        "number": "4",
+        "weight": "20",
+        "cl_id": "9c07b641471b3a10448f409b136d4336",
+        "assessment_name": "4 - Project",
+        "description": null,
+        "assessment_type": {
+          "label": "Project",
+          "value": "project"
+        },
+        "name": "Assignment 2: Lexical Analysis, Parsing, Computability",
+        "offerings_formatted": "",
+        "learning_outcomes": "1, 2, 3, 4, 5, 6, 7, 8"
+      }
+    ],
+    "enrolment_rules": [
+      {
+        "description": "<p>Prerequisites: You should have some prior experience with (a) programming, (b) algorithm analysis, (c) logic, and (d) rigorous proofs using logical reasoning (not just algebraic manipulation).\u00a0</p>",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "type": {
+          "label": "Enrolment Rule",
+          "value": "info"
+        },
+        "cl_id": "9407b641471b3a10448f409b136d4347"
+      }
+    ],
+    "requisites": [
+      {
+        "academic_item_code": "FIT2014",
+        "active": "true",
+        "requisite_cl_id": "94077641471b3a10448f409b136d43c5",
+        "description": "",
+        "requisite_type": {
+          "label": "Prerequisite",
+          "value": "prerequisite"
+        },
+        "cl_id": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "academic_item_version_number": "2026.06",
+        "order": "1",
+        "start_date": "",
+        "end_date": "",
+        "container": [
+          {
+            "cl_id": "9007b68597db7a104301b137f053af41",
+            "parent_container_table": "x_f5sl_cl_requisite",
+            "parent_record": {
+              "value": "Relationship Builder: FIT2014",
+              "cl_id": "94077641471b3a10448f409b136d43c5",
+              "key": "academic_item",
+              "type": "x_f5sl_cl_requisite"
+            },
+            "title": "Container 1",
+            "parent_connector": {
+              "label": "AND",
+              "value": "AND"
+            },
+            "containers": [
+              {
+                "cl_id": "5807b68597db7a104301b137f053af43",
+                "parent_container_table": "x_f5sl_cl_relationship_groups",
+                "parent_record": {
+                  "value": "Relationship Groups: Container 1",
+                  "cl_id": "9007b68597db7a104301b137f053af41",
+                  "key": "title",
+                  "type": "x_f5sl_cl_relationship_groups"
+                },
+                "title": "Container 1.2",
+                "parent_connector": {
+                  "label": "OR",
+                  "value": "OR"
+                },
+                "containers": [],
+                "relationships": [
+                  {
+                    "academic_item": {
+                      "value": "Unit: MTH2025",
+                      "cl_id": "eb519cb4dbdc7d502bdd077cd396197f",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.2",
+                      "cl_id": "5807b68597db7a104301b137f053af43",
+                      "key": "title"
+                    },
+                    "order": "7",
+                    "cl_id": "eb519cb4dbdc7d502bdd077cd396197f",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "LINEAR ALGEBRA (ADV)",
+                    "academic_item_version_name": "2024.01RO",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Linear algebra (Advanced)",
+                    "academic_item_code": "MTH2025",
+                    "academic_item_url": "/2024/units/MTH2025"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: MTH3141",
+                      "cl_id": "eb6114f4dbdc7d502bdd077cd396192e",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.2",
+                      "cl_id": "5807b68597db7a104301b137f053af43",
+                      "key": "title"
+                    },
+                    "order": "16",
+                    "cl_id": "eb6114f4dbdc7d502bdd077cd396192e",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "ALGEBRA 1",
+                    "academic_item_version_name": "2024.01RO",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Algebra 1: Group theory",
+                    "academic_item_code": "MTH3141",
+                    "academic_item_url": "/2024/units/MTH3141"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: MTH2141",
+                      "cl_id": "786150f4dbdc7d502bdd077cd396194a",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.2",
+                      "cl_id": "5807b68597db7a104301b137f053af43",
+                      "key": "title"
+                    },
+                    "order": "15",
+                    "cl_id": "786150f4dbdc7d502bdd077cd396194a",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "ALGEBRA 1",
+                    "academic_item_version_name": "2024.01RO",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Algebra 1: Group theory",
+                    "academic_item_code": "MTH2141",
+                    "academic_item_url": "/2024/units/MTH2141"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: MTH2021",
+                      "cl_id": "ef519cb4dbdc7d502bdd077cd3961917",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.2",
+                      "cl_id": "5807b68597db7a104301b137f053af43",
+                      "key": "title"
+                    },
+                    "order": "6",
+                    "cl_id": "ef519cb4dbdc7d502bdd077cd3961917",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "LINEAR ALGEBRA",
+                    "academic_item_version_name": "2024.01RO",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Linear algebra with applications",
+                    "academic_item_code": "MTH2021",
+                    "academic_item_url": "/2024/units/MTH2021"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: FIT2085",
+                      "cl_id": "64a76845dbd4fd50101196cbd396192b",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.2",
+                      "cl_id": "5807b68597db7a104301b137f053af43",
+                      "key": "title"
+                    },
+                    "order": "5",
+                    "cl_id": "64a76845dbd4fd50101196cbd396192b",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "FUND ALGOR ENG",
+                    "academic_item_version_name": "2024.02",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Fundamentals of algorithms for engineers",
+                    "academic_item_code": "FIT2085",
+                    "academic_item_url": "/2024/units/FIT2085"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: MTH3140",
+                      "cl_id": "9f6114f4dbdc7d502bdd077cd3961911",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.2",
+                      "cl_id": "5807b68597db7a104301b137f053af43",
+                      "key": "title"
+                    },
+                    "order": "14",
+                    "cl_id": "9f6114f4dbdc7d502bdd077cd3961911",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "REAL ANALYSIS",
+                    "academic_item_version_name": "2024.01RO",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Real analysis",
+                    "academic_item_code": "MTH3140",
+                    "academic_item_url": "/2024/units/MTH3140"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: MTH2140",
+                      "cl_id": "706150f4dbdc7d502bdd077cd3961921",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.2",
+                      "cl_id": "5807b68597db7a104301b137f053af43",
+                      "key": "title"
+                    },
+                    "order": "13",
+                    "cl_id": "706150f4dbdc7d502bdd077cd3961921",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "REAL ANALYSIS",
+                    "academic_item_version_name": "2024.01RO",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Real analysis",
+                    "academic_item_code": "MTH2140",
+                    "academic_item_url": "/2024/units/MTH2140"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: FIT1008",
+                      "cl_id": "c4a5ac81dbd4fd50101196cbd396194b",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.2",
+                      "cl_id": "5807b68597db7a104301b137f053af43",
+                      "key": "title"
+                    },
+                    "order": "3",
+                    "cl_id": "c4a5ac81dbd4fd50101196cbd396194b",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "FUND ALGOR",
+                    "academic_item_version_name": "2024.02",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Fundamentals of algorithms",
+                    "academic_item_code": "FIT1008",
+                    "academic_item_url": "/2024/units/FIT1008"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: FIT1054",
+                      "cl_id": "fcb86885dbd4fd50101196cbd39619ed",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.2",
+                      "cl_id": "5807b68597db7a104301b137f053af43",
+                      "key": "title"
+                    },
+                    "order": "4",
+                    "cl_id": "fcb86885dbd4fd50101196cbd39619ed",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "FUND ALGOR ADV",
+                    "academic_item_version_name": "2024.02",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Fundamentals of algorithms (Advanced)",
+                    "academic_item_code": "FIT1054",
+                    "academic_item_url": "/2024/units/FIT1054"
+                  }
+                ]
+              },
+              {
+                "cl_id": "9007b68597db7a104301b137f053af44",
+                "parent_container_table": "x_f5sl_cl_relationship_groups",
+                "parent_record": {
+                  "value": "Relationship Groups: Container 1",
+                  "cl_id": "9007b68597db7a104301b137f053af41",
+                  "key": "title",
+                  "type": "x_f5sl_cl_relationship_groups"
+                },
+                "title": "Container 1.8",
+                "parent_connector": {
+                  "label": "OR",
+                  "value": "OR"
+                },
+                "containers": [],
+                "relationships": [
+                  {
+                    "academic_item": {
+                      "value": "Unit: ATS2866",
+                      "cl_id": "61f33c81c3938a1002fcfb777d01314c",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.8",
+                      "cl_id": "9007b68597db7a104301b137f053af44",
+                      "key": "title"
+                    },
+                    "order": "20",
+                    "cl_id": "61f33c81c3938a1002fcfb777d01314c",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "SYMBOLIC LOGIC",
+                    "academic_item_version_name": "2025.01RO",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Symbolic logic",
+                    "academic_item_code": "ATS2866",
+                    "academic_item_url": "/2025/units/ATS2866"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: MTH1035",
+                      "cl_id": "0e1c3005c3578a1002fcfb777d013130",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.8",
+                      "cl_id": "9007b68597db7a104301b137f053af44",
+                      "key": "title"
+                    },
+                    "order": "19",
+                    "cl_id": "0e1c3005c3578a1002fcfb777d013130",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "MODELLING (ADVANCED)",
+                    "academic_item_version_name": "2025.01RO",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Techniques for modelling (Advanced)",
+                    "academic_item_code": "MTH1035",
+                    "academic_item_url": "/2025/units/MTH1035"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: MAT1830",
+                      "cl_id": "21eff959c3a8925002fcfb777d013112",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.8",
+                      "cl_id": "9007b68597db7a104301b137f053af44",
+                      "key": "title"
+                    },
+                    "order": "18",
+                    "cl_id": "21eff959c3a8925002fcfb777d013112",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "DISC MATH COMPSC",
+                    "academic_item_version_name": "2025.04",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Discrete mathematics for computer science",
+                    "academic_item_code": "MAT1830",
+                    "academic_item_url": "/2025/units/MAT1830"
+                  },
+                  {
+                    "academic_item": {
+                      "value": "Unit: FIT1058",
+                      "cl_id": "a85005b247d9d210448f409b136d4379",
+                      "key": "code",
+                      "type": "x_f5sl_cl_subjects"
+                    },
+                    "parent_record": {
+                      "value": "Container 1.8",
+                      "cl_id": "9007b68597db7a104301b137f053af44",
+                      "key": "title"
+                    },
+                    "order": "17",
+                    "cl_id": "a85005b247d9d210448f409b136d4379",
+                    "academic_item_type": {
+                      "label": "Unit",
+                      "value": "subject"
+                    },
+                    "abbr_name": "FNDSCOMP",
+                    "academic_item_version_name": "2025.04",
+                    "academic_item_credit_points": "6",
+                    "abbreviated_name_and_major": null,
+                    "academic_item_name": "Foundations of computing",
+                    "academic_item_code": "FIT1058",
+                    "academic_item_url": "/2025/units/FIT1058"
+                  }
+                ]
+              }
+            ],
+            "relationships": []
+          }
+        ]
+      }
+    ],
+    "unit_offering": [
+      {
+        "fees_domestic": "",
+        "publish": "true",
+        "location": {
+          "value": "Malaysia",
+          "cl_id": "7bf321e1db30a7406add773c3496192f",
+          "key": "name"
+        },
+        "name": "FIT2014-S2-01-ON-CAMPUS-MALAYSIA",
+        "clarification_to_appear_in_handbook": "",
+        "display_name": "S2-01-MALAYSIA-ON-CAMPUS",
+        "teaching_period": {
+          "value": "Second semester",
+          "cl_id": "85a429a1db30a7406add773c3496190d",
+          "key": "name"
+        },
+        "attendance_mode": {
+          "value": "Teaching activities are on-campus (ON-CAMPUS)",
+          "cl_id": "7bf2311bdb68a3406add773c349619bb",
+          "key": "description"
+        },
+        "quota_number": "",
+        "study_level": {
+          "label": null,
+          "value": null
+        },
+        "offered": "true",
+        "self_enrol": "true",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "fees_commonwealth": "",
+        "fees_international": "",
+        "course_restrictions": "",
+        "cl_id": "5407b641471b3a10448f409b136d432e"
+      },
+      {
+        "fees_domestic": "",
+        "publish": "true",
+        "location": {
+          "value": "Malaysia",
+          "cl_id": "7bf321e1db30a7406add773c3496192f",
+          "key": "name"
+        },
+        "name": "FIT2014-S1-01-ON-CAMPUS-MALAYSIA",
+        "clarification_to_appear_in_handbook": "",
+        "display_name": "S1-01-MALAYSIA-ON-CAMPUS",
+        "teaching_period": {
+          "value": "First semester",
+          "cl_id": "0da429a1db30a7406add773c3496190c",
+          "key": "name"
+        },
+        "attendance_mode": {
+          "value": "Teaching activities are on-campus (ON-CAMPUS)",
+          "cl_id": "7bf2311bdb68a3406add773c349619bb",
+          "key": "description"
+        },
+        "quota_number": "",
+        "study_level": {
+          "label": null,
+          "value": null
+        },
+        "offered": "true",
+        "self_enrol": "true",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "fees_commonwealth": "",
+        "fees_international": "",
+        "course_restrictions": "",
+        "cl_id": "d407b641471b3a10448f409b136d432d"
+      },
+      {
+        "fees_domestic": "",
+        "publish": "true",
+        "location": {
+          "value": "Clayton",
+          "cl_id": "37f321e1db30a7406add773c3496192e",
+          "key": "name"
+        },
+        "name": "FIT2014-S1-01-FLEXIBLE-CLAYTON",
+        "clarification_to_appear_in_handbook": "",
+        "display_name": "S1-01-CLAYTON-FLEXIBLE",
+        "teaching_period": {
+          "value": "First semester",
+          "cl_id": "0da429a1db30a7406add773c3496190c",
+          "key": "name"
+        },
+        "attendance_mode": {
+          "value": "Some activities have a choice of on-campus or online teaching activities (FLEXIBLE)",
+          "cl_id": "09a2972e878d5650945cc808dabb3552",
+          "key": "description"
+        },
+        "quota_number": "",
+        "study_level": {
+          "label": null,
+          "value": null
+        },
+        "offered": "true",
+        "self_enrol": "true",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "fees_commonwealth": "",
+        "fees_international": "",
+        "course_restrictions": "",
+        "cl_id": "dc07b641471b3a10448f409b136d432b"
+      },
+      {
+        "fees_domestic": "",
+        "publish": "true",
+        "location": {
+          "value": "Clayton",
+          "cl_id": "37f321e1db30a7406add773c3496192e",
+          "key": "name"
+        },
+        "name": "FIT2014-S2-01-FLEXIBLE-CLAYTON",
+        "clarification_to_appear_in_handbook": "",
+        "display_name": "S2-01-CLAYTON-FLEXIBLE",
+        "teaching_period": {
+          "value": "Second semester",
+          "cl_id": "85a429a1db30a7406add773c3496190d",
+          "key": "name"
+        },
+        "attendance_mode": {
+          "value": "Some activities have a choice of on-campus or online teaching activities (FLEXIBLE)",
+          "cl_id": "09a2972e878d5650945cc808dabb3552",
+          "key": "description"
+        },
+        "quota_number": "",
+        "study_level": {
+          "label": null,
+          "value": null
+        },
+        "offered": "true",
+        "self_enrol": "true",
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "fees_commonwealth": "",
+        "fees_international": "",
+        "course_restrictions": "",
+        "cl_id": "dc07b641471b3a10448f409b136d432d"
+      }
+    ],
+    "workload_requirements": "<p>Minimum total expected workload to achieve the learning outcomes for this unit is 144 hours per semester typically comprising a mixture of scheduled online and face to face learning activities and independent study. Independent study may include associated reading and preparation for scheduled\u00a0teaching\u00a0activities.</p>",
+    "enrolment_rules_group": [
+      {
+        "rule_group": "Enrolment Rule",
+        "rules": [
+          {
+            "description": "<p>Prerequisites: You should have some prior experience with (a) programming, (b) algorithm analysis, (c) logic, and (d) rigorous proofs using logical reasoning (not just algebraic manipulation).\u00a0</p>",
+            "academic_item": {
+              "value": "FIT2014",
+              "cl_id": "9c077641471b3a10448f409b136d43bd",
+              "key": "code"
+            },
+            "type": {
+              "label": "Enrolment Rule",
+              "value": "info"
+            },
+            "cl_id": "9407b641471b3a10448f409b136d4347",
+            "links": []
+          }
+        ]
+      }
+    ],
+    "assessment_static_text": "Assessment details may change. Please refer to the assessment information in Moodle closer to the start of the teaching period.",
+    "area_of_study_links": "Computer science<br />Computational science<br />",
+    "learning_resources_grouped": [
+      {
+        "type": "Recommended resources",
+        "order": 1,
+        "resources": [
+          {
+            "description": "<p>Sipser, M., 2013, Introduction to the theory of computation, 3rd Edition, Cengage Learning, Boston, MA</p>\n<div>Sydney Padua,\u00a0<em>The Thrilling Adventures of Lovelace and Babbage,\u00a0</em>Penguin, 2016.\u00a0ISBN: \u00a0978-0-141-98153-6</div>",
+            "type": {
+              "label": "Recommended resources",
+              "value": "recommended_resources"
+            },
+            "cl_id": "5c07b641471b3a10448f409b136d434e",
+            "academic_item": {
+              "value": "FIT2014",
+              "cl_id": "9c077641471b3a10448f409b136d43bd",
+              "key": "code"
+            },
+            "links": []
+          }
+        ]
+      },
+      {
+        "type": "Technology resources",
+        "order": 2,
+        "resources": [
+          {
+            "description": "<p>Turing machine simulator, Tuatara (version 2.1), as well as Linux.</p>",
+            "type": {
+              "label": "Technology resources",
+              "value": "technology_resources"
+            },
+            "cl_id": "9807b641471b3a10448f409b136d434f",
+            "academic_item": {
+              "value": "FIT2014",
+              "cl_id": "9c077641471b3a10448f409b136d43bd",
+              "key": "code"
+            },
+            "links": []
+          }
+        ]
+      }
+    ],
+    "study_abroad_unit": "Yes",
+    "academic_item_type": "Unit",
+    "learning_activities_grouped": [
+      {
+        "activity_type": "Workshops",
+        "activities": [
+          {
+            "subject": {
+              "value": "",
+              "cl_id": null,
+              "key": "code"
+            },
+            "cl_id": "9007b641471b3a10448f409b136d4335",
+            "order": "2",
+            "description": "",
+            "activity_type": {
+              "label": "Workshops",
+              "value": "workshop"
+            },
+            "duration_display": "36 hours",
+            "offerings_formatted_teaching_activities": "<ul><li>First semester, Clayton, Some activities have a choice of on-campus or online teaching activities (FLEXIBLE)</li><li>Second semester, Clayton, Some activities have a choice of on-campus or online teaching activities (FLEXIBLE)</li></ul>",
+            "links": []
+          }
+        ]
+      },
+      {
+        "activity_type": "Seminars",
+        "activities": [
+          {
+            "subject": {
+              "value": "",
+              "cl_id": null,
+              "key": "code"
+            },
+            "cl_id": "d007b641471b3a10448f409b136d4334",
+            "order": "0",
+            "description": "",
+            "activity_type": {
+              "label": "Seminars",
+              "value": "seminar"
+            },
+            "duration_display": "36 hours",
+            "offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+            "links": []
+          }
+        ]
+      },
+      {
+        "activity_type": "Applied sessions",
+        "activities": [
+          {
+            "subject": {
+              "value": "",
+              "cl_id": null,
+              "key": "code"
+            },
+            "cl_id": "dc07b641471b3a10448f409b136d4334",
+            "order": "1",
+            "description": "",
+            "activity_type": {
+              "label": "Applied sessions",
+              "value": "applied"
+            },
+            "duration_display": "24 hours",
+            "offerings_formatted_teaching_activities": "<ul><li>Applies to all offerings</li></ul>",
+            "links": []
+          }
+        ]
+      }
+    ],
+    "search_title": "FIT2014 - Theory of computation",
+    "attendance_requirements": null,
+    "eftsl": "0.125",
+    "unit_search_title": "FIT2014 - Theory of computation",
+    "handbook_assessment_summary": "<p>This unit has threshold mark hurdles. You must achieve at least 45% of the available marks in the final scheduled assessment, at least 45% in total for in-semester assessments, and an overall unit mark of 50% or more to be able to pass the unit. If you do not achieve the threshold mark, you will receive a fail grade (NH) and a maximum mark of 45 for the unit.</p>",
+    "teaching_approaches": [
+      {
+        "type": {
+          "label": "Enquiry-based learning",
+          "value": "enquiry_based_learning"
+        },
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "cl_id": "5007b641471b3a10448f409b136d434d",
+        "description": "&nbsp;",
+        "links": []
+      },
+      {
+        "type": {
+          "label": "Active learning",
+          "value": "active_learning"
+        },
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "cl_id": "9007b641471b3a10448f409b136d434e",
+        "description": "&nbsp;",
+        "links": []
+      },
+      {
+        "type": {
+          "label": "Peer assisted learning",
+          "value": "peer_assisted_learning"
+        },
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "cl_id": "9407b641471b3a10448f409b136d434e",
+        "description": "&nbsp;",
+        "links": []
+      },
+      {
+        "type": {
+          "label": "Problem-based learning",
+          "value": "problem_based_learning"
+        },
+        "academic_item": {
+          "value": "FIT2014",
+          "cl_id": "9c077641471b3a10448f409b136d43bd",
+          "key": "code"
+        },
+        "cl_id": "9c07b641471b3a10448f409b136d434d",
+        "description": "&nbsp;",
+        "links": []
+      }
+    ],
+    "fieldwork": null,
+    "special_note_to_students": "<p>If you have not done one of the programming units specified you are encouraged to consult the Chief Examiner regarding possible approval to enrol in this unit.</p>\n<p>\u00a0</p>",
+    "handbook_statement": null,
+    "contact_information": null,
+    "academic_contact_roles": [
+      {
+        "role": "Unit Coordinator(s)",
+        "contacts": [
+          {
+            "active": "true",
+            "contact_department": "",
+            "start_date": "",
+            "offering": {
+              "value": "",
+              "cl_id": null,
+              "key": "display_name"
+            },
+            "contact_role": {
+              "label": "Unit Coordinator",
+              "value": "unit_coordinator"
+            },
+            "contact_name": "Wong Kok Sheik",
+            "role_detail": "",
+            "contact_organisation": "",
+            "contact_title": "Professor",
+            "order": "1",
+            "contact_phone": "",
+            "end_date": "",
+            "location": {
+              "value": "",
+              "cl_id": null,
+              "key": "name"
+            },
+            "contact_email": "Wong.Koksheik@monash.edu",
+            "contact_url": "",
+            "user": {
+              "value": "Wong Kok Sheik",
+              "cl_id": "7fa5a0fadb0d77009ef3147a3a96190e",
+              "key": ""
+            },
+            "offerings": [
+              {
+                "value": "S2-01-MALAYSIA-ON-CAMPUS",
+                "cl_id": "5407b641471b3a10448f409b136d432e",
+                "key": "display_name"
+              },
+              {
+                "value": "S1-01-MALAYSIA-ON-CAMPUS",
+                "cl_id": "d407b641471b3a10448f409b136d432d",
+                "key": "display_name"
+              }
+            ],
+            "applies_to_all_offerings": "false",
+            "linking_id": "5ad15c2687eb719064f28407dabb355a",
+            "cl_id": "1807b641471b3a10448f409b136d4345",
+            "course_offerings_formatted_contact": "<ul></ul>",
+            "display_details": "Wong.Koksheik@monash.edu",
+            "display_name": "Professor Wong Kok Sheik ",
+            "offerings_formatted_contact": "<ul><li>First semester, Malaysia, Teaching activities are on-campus (ON-CAMPUS)</li><li>Second semester, Malaysia, Teaching activities are on-campus (ON-CAMPUS)</li></ul>",
+            "display_role_plural": "Unit Coordinator(s)",
+            "links": []
+          }
+        ]
+      },
+      {
+        "role": "Chief Examiner(s)",
+        "contacts": [
+          {
+            "active": "false",
+            "contact_department": "",
+            "start_date": "",
+            "offering": {
+              "value": "",
+              "cl_id": null,
+              "key": "display_name"
+            },
+            "contact_role": {
+              "label": "Chief Examiner",
+              "value": "chief_examiner"
+            },
+            "contact_name": "Graham Farr",
+            "role_detail": "",
+            "contact_organisation": "",
+            "contact_title": "Professor",
+            "order": "",
+            "contact_phone": "",
+            "end_date": "",
+            "location": {
+              "value": "",
+              "cl_id": null,
+              "key": "name"
+            },
+            "contact_email": "Graham.Farr@monash.edu",
+            "contact_url": "",
+            "user": {
+              "value": "Graham Farr",
+              "cl_id": "50e18310dbb8b300580f42a0149619ce",
+              "key": ""
+            },
+            "offerings": [],
+            "applies_to_all_offerings": "true",
+            "linking_id": "d410d06cdb74b3003a731c0e04961929",
+            "cl_id": "9007b641471b3a10448f409b136d4344",
+            "course_offerings_formatted_contact": "<ul><li>Applies to all offerings</li></ul>",
+            "display_details": "Graham.Farr@monash.edu",
+            "display_name": "Professor Graham Farr ",
+            "offerings_formatted_contact": "<ul><li>Applies to all offerings</ul></li>",
+            "display_role_plural": "Chief Examiner(s)",
+            "links": []
+          }
+        ]
+      }
+    ],
+    "other_unit_costs": null,
+    "highest_sca_band": "SCA Band 2",
+    "links": []
+  }
+}

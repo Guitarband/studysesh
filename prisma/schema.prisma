@@ -1,0 +1,206 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id            String    @id
+  name          String
+  email         String    @unique
+  emailVerified Boolean   @default(false)
+  image         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  accounts      Account[]
+  sessions      Session[]
+  events        EventAttendee[]
+
+  @@map("user")
+}
+
+model Session {
+  id        String   @id
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("session")
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("account")
+}
+
+model Verification {
+  id         String   @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+  @@map("verification")
+}
+
+model University {
+  id         String    @id @default(uuid())
+  name       String    @unique
+  short_name String
+  campuses   Json
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  degrees    Degree[]
+  faculties  Faculty[]
+  units      Unit[]
+
+  @@map("university")
+}
+
+model Faculty {
+  id           String     @id @default(uuid())
+  api_id       String?
+  title        String
+  code         String
+  universityId String
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  degrees      Degree[]
+  university   University @relation(fields: [universityId], references: [id], onDelete: Cascade)
+  units        Unit[]
+
+  @@map("faculty")
+  @@unique([title, universityId])
+}
+
+model Degree {
+  id              String     @id @default(uuid())
+  title           String
+  code            String
+  total_credits   Int
+  duration_months Int
+  required_units  Json
+  universityId    String
+  facultyId       String
+  createdAt       DateTime   @default(now())
+  updatedAt       DateTime   @updatedAt
+  faculty         Faculty    @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  university      University @relation(fields: [universityId], references: [id], onDelete: Cascade)
+
+  @@map("degree")
+  @@unique([title, universityId])
+}
+
+model Unit {
+  id            String     @id @default(uuid())
+  name          String
+  code          String
+  credits       Int
+  level         Int
+  description   String?
+  prerequisites Json?
+  offerings     Json?
+  facultyId     String
+  universityId  String
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+  faculty       Faculty    @relation(fields: [facultyId], references: [id], onDelete: Cascade)
+  university    University @relation(fields: [universityId], references: [id], onDelete: Cascade)
+
+  @@map("unit")
+  @@unique([code, universityId])
+}
+
+enum EventType {
+  STUDY_SESSION
+  CAMPUS_SOCIAL
+  UNI_ACADEMIC
+  CUSTOM
+}
+
+enum EventStatus {
+  Scheduled
+  Ongoing
+  Cancelled
+  Completed
+}
+
+model Event {
+  id            String      @id @default(uuid())
+  type          EventType
+  title         String
+
+  creatorId     String?
+  universityId  String?
+  unitId        String?
+  roomId        String?
+  location      String
+
+  startsAt      DateTime
+  endsAt        DateTime
+  capacity      Int?
+  isPublic      Boolean     @default(true)
+  isOnline      Boolean     @default(false)
+  status        EventStatus
+  tags          Json?
+  meta          Json?
+
+  source        String
+  source_url    String
+
+  attendees     EventAttendee[]
+
+  createdAt     DateTime    @default(now())
+  updatedAt     DateTime    @updatedAt
+
+  @@map("event")
+}
+
+enum AttendeeRole {
+  HOST
+  CO_HOST
+  ATTENDEE
+  INVITED
+  WAITLIST
+}
+
+model EventAttendee {
+  eventId   String
+  userId    String
+  role      AttendeeRole
+  joinedAt  DateTime @default(now())
+
+  event     Event    @relation(fields: [eventId], references: [id], onDelete: Cascade)
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([eventId])
+  @@index([userId])
+  @@unique([eventId, userId])
+  @@map("event_attendee")
+}

@@ -1,0 +1,450 @@
+{
+  "data": {
+    "aqf_level": {
+      "label": "Level 7 - Bachelor Degree / Level 7 - Bachelor Degree",
+      "value": "7_7_combo"
+    },
+    "implementation_year": "2026",
+    "asced_detailed": {
+      "value": "",
+      "cl_id": null,
+      "key": "display_value"
+    },
+    "accrediting_bodies": [],
+    "english_language_requirements": {
+      "value": "",
+      "cl_id": "919c14094fb987409e2bfd501310c744",
+      "key": "text"
+    },
+    "code": "C2003",
+    "student_types": [
+      {
+        "value": "Yes",
+        "cl_id": "9a45e7811b8fc610b0c19687b04bcb31",
+        "key": "label"
+      }
+    ],
+    "type_ref": {
+      "value": "Double degree (Undergraduate)",
+      "cl_id": "ee0165fbdb470610ac9b3ea1f3961906",
+      "key": "display_name"
+    },
+    "asced_broad": {
+      "value": "",
+      "cl_id": null,
+      "key": "display_value"
+    },
+    "quota": "",
+    "owning_org": {
+      "value": "",
+      "cl_id": null,
+      "key": "name"
+    },
+    "published_in_handbook": {
+      "label": "Yes",
+      "value": "1"
+    },
+    "partner_academic_orgs": [
+      {
+        "value": "Faculty of Science",
+        "cl_id": "af888a53dba8a3406add773c3496194e",
+        "key": "name"
+      }
+    ],
+    "academic_org": {
+      "value": "",
+      "cl_id": null,
+      "key": "name"
+    },
+    "end_date": "",
+    "status": {
+      "label": "Accredited",
+      "value": "Active"
+    },
+    "course_offering_notes": "",
+    "school": {
+      "value": "Faculty of Information Technology",
+      "cl_id": "c5684a53dba8a3406add773c349619a1",
+      "key": "name"
+    },
+    "international_availability_clarification": {
+      "value": "",
+      "cl_id": null,
+      "key": "text"
+    },
+    "credit_points": "192",
+    "entry_requirements_transnational": "",
+    "inherent_requirements": "",
+    "callista_version": "",
+    "enrolment_restrictions": {
+      "value": "",
+      "cl_id": null,
+      "key": "text"
+    },
+    "sms_version": "",
+    "type": {
+      "label": "UG double",
+      "value": "301"
+    },
+    "sms_status": {
+      "label": null,
+      "value": null
+    },
+    "description": "",
+    "cl_id": "3dddd3e4c391261040721d4bb00131c1",
+    "asced_narrow": {
+      "value": "",
+      "cl_id": null,
+      "key": "display_value"
+    },
+    "title": "Bachelor of Information Technology and Bachelor of Science",
+    "version": "1",
+    "subclass": {
+      "label": "Course",
+      "value": "course"
+    },
+    "requirements": "<p>You must complete 192 points, of which 96 points are from the Bachelor of Information Technology (including all the requirements in Part A and B for the single degree) and 96 points from the Bachelor of Science (including all the requirements in Part A and B for the single degree). <br /><br /></p>",
+    "professional_recognition": null,
+    "abbreviated_name_and_major": "",
+    "enrolment_patterns": [],
+    "version_name": "2026.01AU",
+    "start_date": "",
+    "areas_of_employment": [],
+    "course_code": "C2003",
+    "abbreviated_name": "BInfoTech/BSc",
+    "entry_requirements_onshore": "",
+    "ext_id": "",
+    "source": {
+      "value": "d85e6d71c366da1002fcfb777d0131b1",
+      "cl_id": "d85e6d71c366da1002fcfb777d0131b1",
+      "key": ""
+    },
+    "active": "false",
+    "class_name": "Course",
+    "effective_date": "2026-01-01",
+    "govt_special_course_type": {
+      "label": null,
+      "value": null
+    },
+    "research_areas": null,
+    "exit": "<p>Refer to the Course description for each partner course</p>",
+    "part_time": "true",
+    "structure": "<p>Double degree courses include the features of the component degree courses, except that electives may be reduced. <br /><br /><strong>Information Technology</strong><br /><br />C2000 Bachelor of Information Technology is a comprehensive course, structured in three equal parts. In the double degree course you complete:<br /><br /><strong> Part A. Specified studies</strong><br /><br />This will provide you with foundation skills and knowledge for your IT education and ensure a breadth of understanding of IT and its applications in organisations and society. <br /><br /><strong> Part B. Major studies</strong><br /><br />This will provide you with a focused program of study that will develop your expertise in one area of information technology. You will develop the practical and theoretical skills and knowledge in your chosen major needed to successfully plan, develop, implement and evaluate information products and systems. <br /><br /><strong>Science </strong><br /><br />S2000 Bachelor of Science is a comprehensive course, structured in three equal parts. In the double degree course you complete:<br /><br /><strong> Part A. Science specified study</strong><br /><br />This will provide you with the mathematical or statistical foundation for your study of science and address the nature of science and its communication. It will also expose you to several science disciplines contributing breadth to your understanding of science and giving you the opportunity to learn about several disciplines before finalising your choice of major. <br /><br /><strong> Part B. Science listed major</strong><br /><br />This will provide you with a focused program of study that will develop your expertise in one discipline area. You will learn to develop, apply and communicate an advanced level of understanding of the concepts and theoretical frameworks that constitute the knowledge base of the discipline.</p>\n<p><strong>Course progression map</strong><br /><br />The <a href=\"https://www.monash.edu/it/current-students/enrolment/course-maps-and-handbooks\" rel=\"nofollow\">course progression map</a> provides guidance on unit enrolment for each semester of study.</p>",
+    "no_enrolment": "false",
+    "publication_information": "",
+    "internship_placement": null,
+    "entry_list": [],
+    "entry_guarantee": "false",
+    "police_check": "false",
+    "year_12_prerequisites": "",
+    "last_review_date": "",
+    "career_opportunities": null,
+    "fees_description": null,
+    "location": "Clayton",
+    "course_version": {
+      "value": "C2003",
+      "cl_id": "3dddd3e4c391261040721d4bb00131c1",
+      "key": "code"
+    },
+    "progression": null,
+    "english_language": "<p>Monash Level A, that is:\u00a0\u00a0IELTS (Academic): 6.5 overall (no band lower than 6.0); or Pearson Test of English (Academic): score of 58 overall with no band lower than 50; or TOEFL Internet-based test: score of 79 overall with minimum scores: Writing: 21, Listening: 12, Reading: 13 and Speaking: 18; or Equivalent approved English test</p>",
+    "ib_maths": "Level 1, that is:  Successful completion of any mathematics subject",
+    "qualification_requirement": "",
+    "articulation_arrangement": null,
+    "working_with_children_check": "false",
+    "partner_faculty": {
+      "label": "Science",
+      "value": "Science"
+    },
+    "full_time": "true",
+    "qualifications": "",
+    "international_students": "true",
+    "special_admission": null,
+    "entry": "<p>Refer to the Course description for each partner course</p>",
+    "atar": "75; International: UERT Year 12/Foundation Band 3 (80-82.49); UERT Post-Secondary Band 2 (Credit)",
+    "recognition_of_prior_learning": null,
+    "Progression_to_further_studies": null,
+    "course_data_updated": "2025-09-08T03:32:53",
+    "prior_learning_recognition": null,
+    "vce_other": "Units 3 & 4: a study score of at least 25 in one of Biology, Chemistry, Environmental Science, Geography, Mathematical Methods , Specialist Mathematics, Physics or Psychology",
+    "award_titles": [
+      {
+        "award_information": "",
+        "award_title": "Bachelor of Information Technology",
+        "cl_id": "39dd1be4c391261040721d4bb0013116"
+      },
+      {
+        "award_information": "",
+        "award_title": "Bachelor of Science",
+        "cl_id": "71dd1be4c391261040721d4bb0013116"
+      }
+    ],
+    "credit_restrictions": null,
+    "on_campus": "true",
+    "accreditation_start_date": "",
+    "participation_enrolment": null,
+    "vce_english": "Level 1, that is: \nUnits 3 & 4: a study score of at least 27 in English (EAL) or 25 in English other than EAL",
+    "ib_other": "At least 4 at Standard Level (SL) or 3 at Higher Level (HL) in Biology, Chemistry, Environmental Systems and Societies (SL only), General Mathematics (HL only), Geography, Mathematics: Analysis and Approaches, Mathematics: Applications and Interpretations (HL only), Physics or Psychology.",
+    "online": "false",
+    "progress_to_masters": "",
+    "additional_info": null,
+    "cricos_disclaimer_applicable": "false",
+    "other_description": "",
+    "other": "false",
+    "health_records_and_privacy": "false",
+    "information_declaration": "false",
+    "ahegs": "<p class=\"MsoNormal\">Refer to the AHEGS for each partner course.\u00a0</p>",
+    "cricos_status": {
+      "label": null,
+      "value": null
+    },
+    "prohibited_employment_declaration": "false",
+    "minimum_entry_requirements": "",
+    "accreditation_end_date": "2028-12-31",
+    "accreditation_end": "2028-12-31",
+    "post_nominals": "Refer to each partner course for the post nominals for the degree awarded",
+    "ib_english": "Level 1, that is:\nAt least 4 in English SL or 3 in English HL or 5 in English B SL or 4 in English B HL",
+    "credit_arrangements": null,
+    "outcomes": "<p>Students in the double degree course achieve the Course Learning Outcomes of the two partner courses.</p>",
+    "maximum_duration": "10",
+    "majors_minors": null,
+    "vce_maths": " Level 1, that is:  Units 1 & 2: Satisfactory completion in 2 units (any combination) of General Mathematics, Mathematical Methods or Specialist Mathematics",
+    "non_year_12_entry": "<p>All applicants must satisfy the equivalence of the VCE subject prerequisites (English and Mathematics).<br /><br />VET Diploma graduates:<br /><br />Applicants can meet the mathematics prerequisite of the IT degree with either a VCE mathematics subject (with appropriate score) or with an IT-related Diploma. To be considered for the double degree, applicants who have completed VCE (or its equivalent) and who are applying with an IT or science-based diploma will require an average result of at least 60%. Applicants who have not completed VCE but have completed an IT or science-based diploma, will require an average result of at least 70%. Programs that involve competency-based assessment without grades or marks will not meet the admission requirements.<br /><br />VET Certificate IV graduates:<br /><br />Applicants can meet the mathematics prerequisite of the IT degree with either a VCE mathematics subject (with appropriate score) or with an IT-related Certificate IV. To be considered for the double degree, applicants with an IT or science-based certificate IV level studies will require average results of at least 80%. For applicants who have also completed VCE, both qualifications will be considered. No credit is granted for these studies.<br /><br />University course transfers: <br /><br />Applicants who already meet minimum entry requirements of the course with their previous Year 12 (or equivalent) qualification require at least two completed university units to be considered for admission. More units (especially in IT and Science areas) will be useful for selection.<br /><br />Applicants who do not meet minimum entry requirements of the course with their previous Year 12 (or equivalent) qualification usually must have completed at least one academic year with at least a 60% average. Previous studies must have been completed within five years of intended commencement.</p>",
+    "specialisations": null,
+    "mshc2_cl_id": "f5ddd3e4c391261040721d4bb00131c3",
+    "special_statements": "",
+    "double_degrees": null,
+    "diploma_awarded": "",
+    "degrees_awarded": "<p>Bachelor of Information Technology<br />Bachelor of Science</p>",
+    "honours_entry_requirements": "",
+    "overview": "<p>In an age of increasing technological advancements the synergy between science and information technology will only become stronger. IT underpins virtually all areas of science and the world needs graduates who can straddle both. <br /><br />In this double degree course you will acquire creative and analytical skills to use IT to advance science. This could be anything from designing a stunning visualisation of scientific data, to building an app for fieldwork data collection to setting up the business IT processes to deliver a scientific product via the internet. <br /><br />Depending on the IT major you choose, you could:</p>\n<ul>\n<li>use your technical skills from software development to create simulations and visualisations for anything from weather forecasting to threatened species population modelling</li>\n<li>apply your creative skills and design flair from interactive media\u00a0or games development to create an app or game that gets kids excited about science</li>\n<li>use your practical understanding of business information systems to launch a science-enabled online business</li>\n<li>put your networks and security skills to work setting up the scientific instrumentation for tsunami warning or monitoring ice melts in Antarctica.</li>\n</ul>",
+    "full_time_duration": [
+      {
+        "duration_number": "4",
+        "academic_item": {
+          "value": "C2003",
+          "cl_id": "3dddd3e4c391261040721d4bb00131c1",
+          "key": "code"
+        },
+        "type": {
+          "value": "Full time",
+          "cl_id": "ae931e25db494a106c1f0c17f39619f5",
+          "key": "display_name"
+        },
+        "duration_period": {
+          "value": "Years",
+          "cl_id": "3504de25db494a106c1f0c17f3961931",
+          "key": "display_name"
+        },
+        "cl_id": "f9dd1be4c391261040721d4bb0013110",
+        "duration_display": "4 Years"
+      }
+    ],
+    "part_time_duration": [
+      {
+        "duration_number": "8",
+        "academic_item": {
+          "value": "C2003",
+          "cl_id": "3dddd3e4c391261040721d4bb00131c1",
+          "key": "code"
+        },
+        "type": {
+          "value": "Part time",
+          "cl_id": "edb312a1db494a106c1f0c17f3961978",
+          "key": "display_name"
+        },
+        "duration_period": {
+          "value": "Years",
+          "cl_id": "3504de25db494a106c1f0c17f3961931",
+          "key": "display_name"
+        },
+        "cl_id": "b1dd1be4c391261040721d4bb0013110",
+        "duration_display": "8 Years"
+      }
+    ],
+    "articulated_associated_items": [],
+    "related_associated_items": [],
+    "academic_contacts": [],
+    "offering": [
+      {
+        "mode": {
+          "value": "On campus",
+          "cl_id": "a3081311db8deb406add773c34961910",
+          "key": "description"
+        },
+        "admission_calendar": {
+          "label": null,
+          "value": null
+        },
+        "clarification_to_appear_in_handbook": "",
+        "start_date": "",
+        "end_date": "",
+        "comments": "",
+        "language_of_instruction": {
+          "label": "English",
+          "value": "en"
+        },
+        "ext_id": "",
+        "publish": "true",
+        "status": {
+          "label": null,
+          "value": null
+        },
+        "offered": "true",
+        "linking_id": "c09b98acdbc173002b4148370596194d",
+        "cl_id": "b5ddd3e4c391261040721d4bb00131c6",
+        "display_name": "On campus-Clayton",
+        "location": {
+          "value": "Clayton",
+          "cl_id": "37f321e1db30a7406add773c3496192e",
+          "key": "name"
+        },
+        "name": "C2003",
+        "order": "1",
+        "attendance_type": [
+          {
+            "label": "na",
+            "value": "na"
+          }
+        ],
+        "academic_item": {
+          "value": "C2003",
+          "cl_id": "3dddd3e4c391261040721d4bb00131c1",
+          "key": "code"
+        },
+        "year": "",
+        "entry_point": "false"
+      }
+    ],
+    "school_org_unit_data": [
+      {
+        "parent": {
+          "value": "",
+          "cl_id": null,
+          "key": "name"
+        },
+        "url": "https://www.monash.edu/it",
+        "name": "Faculty of Information Technology",
+        "cl_id": "c5684a53dba8a3406add773c349619a1"
+      }
+    ],
+    "max_time_duration": [
+      {
+        "duration_number": "10",
+        "academic_item": {
+          "value": "C2003",
+          "cl_id": "3dddd3e4c391261040721d4bb00131c1",
+          "key": "code"
+        },
+        "type": {
+          "value": "Maximum duration",
+          "cl_id": "6cc3bc571bdb4210b0c19687b04bcbaa",
+          "key": "display_name"
+        },
+        "duration_period": {
+          "value": "Years",
+          "cl_id": "3504de25db494a106c1f0c17f3961931",
+          "key": "display_name"
+        },
+        "cl_id": "79dd1be4c391261040721d4bb0013110",
+        "duration_display": "10 Years"
+      }
+    ],
+    "learning_outcomes": [],
+    "course_duration_notes": null,
+    "course_search_title": "C2003 - Bachelor of Information Technology and Bachelor of Science",
+    "associations_grouped": [],
+    "cricos_code": "085536J",
+    "search_title": "C2003 - Bachelor of Information Technology and Bachelor of Science",
+    "other_information": "<p>In an age of increasing technological advancements the synergy between science and information technology will only become stronger. IT underpins virtually all areas of science and the world needs graduates who can straddle both. <br /><br />In this double degree course you will acquire creative and analytical skills to use IT to advance science. This could be anything from designing a stunning visualisation of scientific data, to building an app for fieldwork data collection to setting up the business IT processes to deliver a scientific product via the internet. <br /><br />Depending on the IT major you choose, you could:</p><ul><li>use your technical skills from software development to create simulations and visualisations for anything from weather forecasting to threatened species population modelling</li><li>apply your creative skills and design flair from interactive media\u00a0or games development to create an app or game that gets kids excited about science</li><li>use your practical understanding of business information systems to launch a science-enabled online business</li><li>put your networks and security skills to work setting up the scientific instrumentation for tsunami warning or monitoring ice melts in Antarctica.</li></ul>",
+    "academic_item_type": "Course",
+    "min_course_pass_grade": null,
+    "fieldwork": null,
+    "partner_org_unit_data": [
+      {
+        "parent": {
+          "value": "",
+          "cl_id": null,
+          "key": "name"
+        },
+        "url": "https://www.monash.edu/science",
+        "name": "Faculty of Science",
+        "cl_id": "af888a53dba8a3406add773c3496194e",
+        "links": []
+      }
+    ],
+    "learning_outcome_static_text": "<p>These course outcomes are aligned with the <a href=\"https://www.monash.edu/students/handbooks/outcomes\" target=\"_blank\">Australian Qualifications Framework and Monash Graduate Attributes</a>.</p><p>Students in the double degree course achieve the Course Learning Outcomes of the two partner courses.</p>",
+    "organisational_contact_information": null,
+    "Special_notes_to_students": null,
+    "other_course_costs": null,
+    "modes": [
+      {
+        "mode": "On campus",
+        "locations": [
+          "Clayton"
+        ],
+        "offerings": [
+          {
+            "mode": {
+              "value": "On campus",
+              "cl_id": "a3081311db8deb406add773c34961910",
+              "key": "description"
+            },
+            "admission_calendar": {
+              "label": null,
+              "value": null
+            },
+            "clarification_to_appear_in_handbook": "",
+            "start_date": "",
+            "end_date": "",
+            "comments": "",
+            "language_of_instruction": {
+              "label": "English",
+              "value": "en"
+            },
+            "ext_id": "",
+            "publish": "true",
+            "status": {
+              "label": null,
+              "value": null
+            },
+            "offered": "true",
+            "linking_id": "c09b98acdbc173002b4148370596194d",
+            "cl_id": "b5ddd3e4c391261040721d4bb00131c6",
+            "display_name": "On campus-Clayton",
+            "location": {
+              "value": "Clayton",
+              "cl_id": "37f321e1db30a7406add773c3496192e",
+              "key": "name"
+            },
+            "name": "C2003",
+            "order": "1",
+            "attendance_type": [
+              {
+                "label": "na",
+                "value": "na"
+              }
+            ],
+            "academic_item": {
+              "value": "C2003",
+              "cl_id": "3dddd3e4c391261040721d4bb00131c1",
+              "key": "code"
+            },
+            "year": "",
+            "entry_point": "false",
+            "links": []
+          }
+        ],
+        "locationsDisplay": "Clayton"
+      }
+    ],
+    "min_articulation_pass_grade": null,
+    "alternative_exits": "<p>You may be eligible to exit the double degree program and graduate with either a Bachelor of Information Technology (C2000) or a Bachelor of Science (S2000) after three years, depending on the units studied. <br /><br />If you who wish to graduate with a Bachelor of Information Technology (C2000) prior to the completion of the double degree you must have completed at least 144 credit points of studies, including all of the requirements in Part A and B for the Bachelor of Information Technology (C2000) degree. <br /><br />If you wish to graduate with a Bachelor of Science (S2000) prior to the completion of the double degree you must have completed at least 144 credit points of studies, including all of the requirements in Part A and B for the Bachelor of Science (S2000) degree.</p>",
+    "professional_accreditation": null,
+    "academic_contact_roles": [],
+    "special_requirements": null,
+    "learning_outcome_static_text_doubles": "<p>These course outcomes are aligned with the <a href=\"https://www.monash.edu/students/handbooks/outcomes\" target=\"_blank\">Australian Qualifications Framework and Monash Graduate Attributes</a>.</p><p>Students in the double degree course achieve the Course Learning Outcomes of the two partner courses.</p>",
+    "links": []
+  },
+  "CurriculumStructure": {}
+}

@@ -1,0 +1,74 @@
+[
+  [
+    {
+      "title": "Bachelor of Computer Science",
+      "shortName": "BCompSci",
+      "code": "C2001",
+      "studyLevel": "Undergraduate",
+      "url": "https://handbook.monash.edu//2026/courses/C2001"
+    }
+  ],
+  [
+    {
+      "title": "Bachelor of Computer Science (Honours)",
+      "shortName": "BCompSc(Hons)",
+      "code": "C3702",
+      "studyLevel": "Undergraduate",
+      "url": "https://handbook.monash.edu//2026/courses/C3702"
+    }
+  ],
+  [
+    {
+      "title": "Bachelor of Computer Science Advanced (Honours)",
+      "shortName": "BCompScAdv(Hons)",
+      "code": "C3001",
+      "studyLevel": "Undergraduate",
+      "url": "https://handbook.monash.edu//2026/courses/C3001"
+    }
+  ],
+  [
+    {
+      "title": "Bachelor of Information Technology",
+      "shortName": "BInfoTech",
+      "code": "C2000",
+      "studyLevel": "Undergraduate",
+      "url": "https://handbook.monash.edu//2026/courses/C2000"
+    }
+  ],
+  [
+    {
+      "title": "Bachelor of Information Technology ",
+      "shortName": "BInfoTech",
+      "code": "C2004",
+      "studyLevel": "Undergraduate",
+      "url": "https://handbook.monash.edu//2026/courses/C2004"
+    }
+  ],
+  [
+    {
+      "title": "Bachelor of Information Technology (Honours)",
+      "shortName": "BInfoTech(Hons)",
+      "code": "C3703",
+      "studyLevel": "Undergraduate",
+      "url": "https://handbook.monash.edu//2026/courses/C3703"
+    }
+  ],
+  [
+    {
+      "title": "Bachelor of Information Technology and Bachelor of Arts",
+      "shortName": "BInfoTech/BA",
+      "code": "C2002",
+      "studyLevel": "Undergraduate",
+      "url": "https://handbook.monash.edu//2026/courses/C2002"
+    }
+  ],
+  [
+    {
+      "title": "Bachelor of Information Technology and Bachelor of Science",
+      "shortName": "BInfoTech/BSc",
+      "code": "C2003",
+      "studyLevel": "Undergraduate",
+      "url": "https://handbook.monash.edu//2026/courses/C2003"
+    }
+  ]
+]
