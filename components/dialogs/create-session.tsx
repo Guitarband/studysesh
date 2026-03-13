@@ -2,7 +2,6 @@ import {
   DialogContent,
   DialogDescription,
   DialogTitle,
-  DialogTrigger,
 } from "@/components/ui/dialog"
 import { Field, FieldGroup } from "@/components/ui/field"
 import { Label } from "@/components/ui/label"
@@ -14,15 +13,48 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Button } from "@/components/ui/button"
 import { Calendar } from "@/components/ui/calendar"
 import { toast } from "sonner"
+import { useMutation } from "@tanstack/react-query"
+import { useTRPC } from "@/trpc/client"
 
 
 const CreateSessionDialog = ({setSessionOpen}: {setSessionOpen: (state: boolean) => void}) => {
+	const trpc = useTRPC()
+
 	const [title, setTitle] = useState("")
 	const [date, setDate] = useState<Date | undefined>()
 	const [time, setTime] = useState("10:30")
 	const [duration, setDuration] = useState(60)
 	const [durationErrorToastVis, setDurationErrorToastVis] = useState(false)
 	const [location, setLocation] = useState("")
+	const [description, setDescription] = useState("")
+	const [capacity, setCapacity] = useState(0)
+
+	const createSession = useMutation({
+		...trpc.event.create.mutationOptions(),
+		onSuccess: () => {
+			toast.success("Session created!");
+			setSessionOpen(false);
+		},
+		onError: (error) => {
+			toast.error("Failed to create session: " + error.message);
+		},
+	});
+
+	const onSubmit = () => {
+		if (!date || !title || !location) {
+			toast.error("Failed to create event, some fields are missing.")
+			return
+		}
+		createSession.mutate({
+			title,
+			date,
+			startTime: time,
+			duration,
+			location,
+			description,
+			capacity
+		})
+	}
 
 	return (
 		<DialogContent showCloseButton={false} className="max-w-[80vw]! w-full p-0 border-0">
@@ -103,7 +135,7 @@ const CreateSessionDialog = ({setSessionOpen}: {setSessionOpen: (state: boolean)
 									/>
 									<InputGroupAddon align="inline-end" className="text-xs">
 										{
-											duration >= 60? `${Math.floor(duration / 60)} hr ${duration - (Math.floor(duration / 60) * 60)} min`
+											duration >= 60? `${Math.floor(duration / 60)} hr ${duration % 60} min`
 											: `${duration} min`
 										}
 									</InputGroupAddon>
@@ -123,13 +155,15 @@ const CreateSessionDialog = ({setSessionOpen}: {setSessionOpen: (state: boolean)
 							<Label>Description</Label>
 							<Input 
 								type="text" 
+								value={description}
 								className="h-24 m-0 bg-gray-50 font-medium" 
 								placeholder="Additional details about the session (optional)" 
+								onChange={(e) => setDescription(e.target.value)}
 							/>
 						</Field>
 						<div className="mt-4 w-full flex flex-row items-center justify-end gap-4">
 							<Button variant="ghost" className="px-8 hover:bg-red-600/70 hover:text-white" onClick={() => setSessionOpen(false)}>Cancel</Button>
-							<Button onClick={() => toast.success("Session created!")}>Create Session</Button>
+							<Button onClick={() => onSubmit()}>Create Session</Button>
 						</div>
 					</FieldGroup>
 				</div>

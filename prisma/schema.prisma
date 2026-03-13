@@ -1,5 +1,5 @@
 generator client {
-  provider = "prisma-client"
+  provider = "prisma-client-js"
   output   = "../generated/prisma"
 }
 
@@ -155,6 +155,7 @@ model Event {
   id            String      @id @default(uuid())
   type          EventType
   title         String
+  description   String?
 
   creatorId     String?
   universityId  String?
